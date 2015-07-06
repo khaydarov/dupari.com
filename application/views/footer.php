@@ -5,10 +5,11 @@
                         <h4О нас</h4>
                         <div class="footer-box-text">
 	                        <p>
-	                        	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. 
-	                        	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.
+	                        	Dupari - это сайт, где легко и удобно можете подобрать себе отдых. Если вы еще не определились куда 
+                                вы хотите поехать отдохнуть, dupari поможет вам с этим справиться. Вы можете посмотреть страны мира, их города, 
+                                достопримечательности, фотографии людей с instagram, что поможет вам определится с решением.
 	                        </p>
-	                        <p><a href="about.html">Read more...</a></p>
+	                        <p><a href="about.html">подробнее...</a></p>
                         </div>
                     </div>
                     <div class="col-sm-3 footer-box wow fadeInDown">

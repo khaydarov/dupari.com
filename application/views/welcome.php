@@ -75,7 +75,7 @@
 
             <!-- Testimonials -->
             <div class="testimonials-container">
-                <?=$feedbacks; ?>
+                
             </div>
 
         <!-- Footer -->

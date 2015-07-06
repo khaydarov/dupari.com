@@ -160,9 +160,9 @@ ul.navbar-nav li.active .dropdown-menu > .active > a:focus { background: #9d426b
 .navbar>.container .navbar-brand { margin-left: 0; }
 
 .navbar-brand {
-    width: 167px;
-    height: 106px;
-    background: url(../img/log.png) left center no-repeat;
+    /*width: 167px;
+    height: 106px;*/
+    background: url("..asd/img/log1.png") left center no-repeat;
     text-indent: -99999px;
 }
 
