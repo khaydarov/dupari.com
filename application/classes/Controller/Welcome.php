@@ -6,13 +6,15 @@ class Controller_Welcome extends Controller_Template {
 
 	public function action_index()
 	{
+		//$this->template = 'welcome';
 		//$this->response->body('hello, world!');
-		$topmenu = View::factory('topmenu');
-		$servises = View::factory('servises');
-		$latest_work = View::factory('latest-work');
-		$footer = View::factory('footer');
-		$feedbacks = View::factory('feedbacks');
-		$search = View::factory('search_tickets');
+		$topmenu = View::factory('blocks/topmenu');
+		$footer = View::factory('blocks/footer');
+
+		$servises = View::factory('welcome/servises');
+		$latest_work = View::factory('welcome/latest-work');
+		$feedbacks = View::factory('welcome/feedbacks');
+		$search = View::factory('welcome/search_tickets');
 
 		// Определеняем общие данные
 		$this->template->title = 'Dupari - Поиск авиабилетов, отелей, круизов и экскурсий. Помощь в поиске вашего отдыха!';
