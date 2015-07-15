@@ -25,7 +25,7 @@ else
  * @link http://kohanaframework.org/guide/using.configuration
  * @link http://www.php.net/manual/timezones
  */
-date_default_timezone_set('America/Chicago');
+date_default_timezone_set('Europe/Moscow');
 
 /**
  * Set the default locale.
@@ -131,7 +131,7 @@ Kohana::modules(array(
 	// 'minion'     => MODPATH.'minion',     // CLI Tasks
 	// 'orm'        => MODPATH.'orm',        // Object Relationship Mapping
 	// 'unittest'   => MODPATH.'unittest',   // Unit testing
-	// 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
+	 'userguide'  => MODPATH.'userguide',  // User guide and API documentation
 	));
 
 /**

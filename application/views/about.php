@@ -71,7 +71,11 @@
         <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <script src="<?=$assets;?>js/jquery.ui.map.min.js"></script>
         <script src="<?=$assets;?>js/scripts.js"></script>
-
+        <script>
+            JQuery(document).ready(function(){
+                alert('as');
+            });
+        </script>
     </body>
 
 </html>
