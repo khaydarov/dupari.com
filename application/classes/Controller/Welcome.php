@@ -1,13 +1,11 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Controller_Welcome extends Controller_Template {
+class Controller_Welcome extends FrontController {
 
 	public $template = 'welcome';
 
 	public function action_index()
 	{
-		//$this->template = 'welcome';
-		//$this->response->body('hello, world!');
 		$topmenu = View::factory('blocks/topmenu');
 		$footer = View::factory('blocks/footer');
 
@@ -27,7 +25,7 @@ class Controller_Welcome extends Controller_Template {
 		$this->template->footer = $footer;
 		$this->template->feedbacks = $feedbacks;
 		$this->template->search_tickets = $search;
-
 	}
+
 
 } // End Welcome

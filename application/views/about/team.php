@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="col-sm-12 wow fadeIn">
                         <i class="fa fa-user"></i>
-                        <h1>О НАС /</h1>
+                        <h1 id="page_title">О НАС</h1>
                         <p>Рады с вами познакомится!!!</p>
                     </div>
                 </div>

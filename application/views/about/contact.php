@@ -3,7 +3,7 @@
                 <div class="row">
                     <div class="col-sm-12 wow fadeIn">
                         <i class="fa fa-envelope"></i>
-                        <h1>Наши контакты /</h1>
+                        <h1 id="page_title">Наши контакты</h1>
                         <p></p>
                     </div>
                 </div>
@@ -63,3 +63,6 @@
 	            </div>
 	        </div>
         </div>
+
+
+<!-- SCRIPTS -->

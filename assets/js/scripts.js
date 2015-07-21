@@ -1,5 +1,5 @@
-
 jQuery(document).ready(function() {
+
 	
 	/*
 	    Wow
@@ -144,6 +144,7 @@ jQuery(document).ready(function() {
             }
         });
     });
+
 	
 });
 

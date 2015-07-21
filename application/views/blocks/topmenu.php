@@ -7,13 +7,14 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="<?=URL::base();?>"><img src="<?=URL::base(); ?>/assets/img/log.png" alt=""></a>
+					<a class="navbar-brand logo" href="<?=URL::base();?>"><img src="<?=URL::base(); ?>/assets/img/log.png" alt=""></a>
 				</div>
+				
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="top-navbar-1">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="dropdown active">
-							<a href="<?=URL::site('welcome/index'); ?>" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
+						<li id="main" class="dropdown">
+							<a href="<?='http:/'.URL::base(); ?>" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
 								<i class="fa fa-home"></i><br>Главная
 							</a>
 						</li>

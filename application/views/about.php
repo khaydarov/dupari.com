@@ -2,8 +2,8 @@
 <html lang="en">
 
   <?php
-    $assets = URL::base().'assets/'; 
-?>
+    $assets = 'http://localhost:/'.URL::base().'assets/'; 
+ ?>
     <head>
         
         <meta charset="utf-8">
@@ -31,6 +31,22 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
+        <!-- Javascript -->
+        <script src="<?=$assets;?>js/jquery-1.11.1.min.js"></script>
+        <script src="<?=$assets;?>bootstrap/js/bootstrap.min.js"></script>
+        <script src="<?=$assets;?>js/bootstrap-hover-dropdown.min.js"></script>
+        <script src="<?=$assets;?>js/jquery.backstretch.min.js"></script>
+        <script src="<?=$assets;?>js/wow.min.js"></script>
+        <script src="<?=$assets;?>js/retina-1.1.0.min.js"></script>
+        <script src="<?=$assets;?>js/jquery.magnific-popup.min.js"></script>
+        <script src="<?=$assets;?>flexslider/jquery.flexslider-min.js"></script>
+        <script src="<?=$assets;?>js/jflickrfeed.min.js"></script>
+        <script src="<?=$assets;?>js/masonry.pkgd.min.js"></script>
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <script src="<?=$assets;?>js/jquery.ui.map.min.js"></script>
+        
+
+        
         <!-- Favicon and touch icons -->
         <link rel="shortcut icon" href="assets/ico/favicon.ico">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<?=$assets;?>ico/apple-touch-icon-144-precomposed.png">
@@ -57,25 +73,11 @@
             <?=$footer; ?>
         </footer>
 
-        <!-- Javascript -->
-        <script src="<?=$assets;?>js/jquery-1.11.1.min.js"></script>
-        <script src="<?=$assets;?>bootstrap/js/bootstrap.min.js"></script>
-        <script src="<?=$assets;?>js/bootstrap-hover-dropdown.min.js"></script>
-        <script src="<?=$assets;?>js/jquery.backstretch.min.js"></script>
-        <script src="<?=$assets;?>js/wow.min.js"></script>
-        <script src="<?=$assets;?>js/retina-1.1.0.min.js"></script>
-        <script src="<?=$assets;?>js/jquery.magnific-popup.min.js"></script>
-        <script src="<?=$assets;?>flexslider/jquery.flexslider-min.js"></script>
-        <script src="<?=$assets;?>js/jflickrfeed.min.js"></script>
-        <script src="<?=$assets;?>js/masonry.pkgd.min.js"></script>
-        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-        <script src="<?=$assets;?>js/jquery.ui.map.min.js"></script>
+    
+     
         <script src="<?=$assets;?>js/scripts.js"></script>
-        <script>
-            JQuery(document).ready(function(){
-                alert('as');
-            });
-        </script>
+        <script src="<?=$assets;?>js/menu.js"></script>
+        
     </body>
 
 </html>

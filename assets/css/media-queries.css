@@ -5,11 +5,6 @@
 	
 	.testimonial-list .testimonial-image { width: 12%; }
 	.testimonial-list .testimonial-text { width: 88%; }
-
-	.mobile-divider {
-		margin-top: 10px;
-	}
-	
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -26,13 +21,6 @@
 	
 	.flickr-feed a { width: 50px; margin-right: 2px; }
 
-	.mobile-divider {
-		margin-top: 10px;
-		width: 100px;
-		height: 100px;
-		border: 1px	solid black;
-	}
-
 }
 
 @media (max-width: 860px) {
@@ -41,8 +29,8 @@
 	.flex-direction-nav a:before { font-size: 18px; }
 	.flex-caption { width: 100%; bottom: 0; }
 
-	.mobile-divider {
-		margin-top: 10px;
+	.logo {
+		display: none;
 	}
 	
 }
@@ -71,10 +59,7 @@
 	
 	.call-to-action-text p { float: none; width: auto; padding-left: 0; text-align: center; }
 	.call-to-action-text .call-to-action-button { float: none; width: auto; margin-top: 15px; margin-bottom: 15px; padding-right: 0; text-align: center; }
-	
-	.mobile-divider {
-		margin-top: 10px;
-	}
+
 
 	footer { padding-top: 20px; }
 	.footer-box { text-align: center; }
@@ -89,9 +74,6 @@
 	
 	.flex-caption { display: none; }
 	
-	.mobile-divider {
-		margin-top: 10px;
-	}
 }
 
 
