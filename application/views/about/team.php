@@ -102,3 +102,7 @@
         <br>
         <br>
         <hr>
+
+        <script>
+        	$('#about').addClass('active');
+        </script>

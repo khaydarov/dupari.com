@@ -14,15 +14,15 @@
 				<div class="collapse navbar-collapse" id="top-navbar-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li id="main" class="dropdown">
-							<a href="<?='http:/'.URL::base(); ?>" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
+							<a href="<?='http://localhost'.URL::base(); ?>">
 								<i class="fa fa-home"></i><br>Главная
 							</a>
 						</li>
-						<li id="portfolio">
-							<a href="portfolio.html" ><i class="fa fa-camera"></i><br>Страны мира</a>
+						<li id="country">
+							<a href="<?=URL::site('country'); ?>" ><i class="fa fa-camera"></i><br>Страны мира</a>
 						</li>
 						<li id="top_trips">
-							<a href="services.html"><i class="fa fa-tasks"></i><br>Топ поездок</a>
+							<a href="<?=URL::site('top'); ?>"><i class="fa fa-tasks"></i><br>Топ поездок</a>
 						</li>
 						<li id="about">
 							<a href="<?=URL::site('about/index'); ?>"><i class="fa fa-user"></i><br>О нас</a>
@@ -32,10 +32,10 @@
 						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
-								<i class="fa fa-paperclip"></i><br>Pages <span class="caret"></span>
+								<i class="fa fa-paperclip"></i><br>Интересное <span class="caret"></span>
 							</a>
 							<ul class="dropdown-menu" role="menu">
-								<li><a href="pricing-tables.html">Pricing tables</a></li>
+								<li><a href="<?=URL::site('interesting/avia'); ?>">Список Авиакомпаний</a></li>
 							</ul>
 						</li>
 					</ul>
