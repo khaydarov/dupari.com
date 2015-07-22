@@ -67,6 +67,34 @@
 		                    </div>
 		                </div>
 	                </div>
+
+	                <div class="col-sm-3">
+		                <div class="team-box wow fadeInDown">
+		                    <img src="<?=URL::base(); ?>/assets/img/unknown.jpg" alt="" data-at2x="assets/img/unknown.jpg">
+		                    <h3>Khayrulloev Dodullo</h3>
+		                    <p><b>Developer</b></p>
+		                    <div class="team-social">		                        
+		                        <a href="#"><i class="fa fa-facebook"></i></a>
+		                        <a href="#"><i class="fa fa-twitter"></i></a>
+		                        <a href="#"><i class="fa fa-linkedin"></i></a>
+		                        <a href="#"><i class="fa fa-envelope"></i></a>
+		                    </div>
+		                </div>
+	                </div>
+
+	                <div class="col-sm-3">
+		                <div class="team-box wow fadeInDown">
+		                    <img src="<?=URL::base(); ?>/assets/img/unknown.jpg" alt="" data-at2x="assets/img/unknown.jpg">
+		                    <h3>Nazarov Shohbot</h3>
+		                    <p><b>tieches</b></p>
+		                    <div class="team-social">		                        
+		                        <a href="#"><i class="fa fa-facebook"></i></a>
+		                        <a href="#"><i class="fa fa-twitter"></i></a>
+		                        <a href="#"><i class="fa fa-linkedin"></i></a>
+		                        <a href="#"><i class="fa fa-envelope"></i></a>
+		                    </div>
+		                </div>
+	                </div>
 	                <!--<div class="col-sm-3">
 		                <div class="team-box wow fadeInUp">
 		                    <img src="assets/img/team/3.jpg" alt="" data-at2x="assets/img/team/3.jpg">

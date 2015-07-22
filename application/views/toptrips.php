@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-<?php
-    $assets = 'http://localhost'.URL::base().'assets/'; 
-?>
     <head>
         
         <meta charset="utf-8">
@@ -23,6 +18,7 @@
         <link rel="stylesheet" href="<?=$assets;?>flexslider/flexslider.css">
         <link rel="stylesheet" href="<?=$assets;?>css/form-elements.css">
         <link rel="stylesheet" href="<?=$assets;?>css/style.css">
+        <link rel="stylesheet" href="<?=$assets;?>css/my.css">
         <link rel="stylesheet" href="<?=$assets;?>css/media-queries.css">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->

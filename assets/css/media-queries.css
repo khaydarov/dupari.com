@@ -68,11 +68,17 @@
 	.footer-copyright, .footer-social { text-align: center; }
 	.footer-social a { margin: 0 5px; }
 
+	
 }
 
 @media (max-width: 400px) {
 	
 	.flex-caption { display: none; }
+
+	.items_country li {
+		width: 100%;
+		margin-left: -20px;
+	}
 	
 }
 

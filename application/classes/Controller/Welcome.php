@@ -15,6 +15,7 @@ class Controller_Welcome extends Front {
 		$search = View::factory('welcome/search_tickets');
 
 		// Определеняем общие данные
+		$this->template->assets = $this->assets;
 		$this->template->title = 'Dupari - Поиск авиабилетов, отелей, круизов и экскурсий. Помощь в поиске вашего отдыха!';
 
 

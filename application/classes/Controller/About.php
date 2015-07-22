@@ -13,7 +13,7 @@ class Controller_About extends Front {
 		$team = View::factory('about/team');
 
 		// Подключение к нужному шаблону
-
+		$this->template->assets = $this->assets;
 		$this->template->title = 'Команда Dupari';
 
 		$this->template->content = $team;
@@ -29,7 +29,7 @@ class Controller_About extends Front {
 		$contact = View::factory('about/contact');
 
 		// Подключение к нужному шаблону
-
+		$this->template->assets = $this->assets;
 		$this->template->title = 'Наши контакты';
 
 		$this->template->content = $contact;
