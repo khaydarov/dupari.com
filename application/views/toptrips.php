@@ -3,7 +3,7 @@
 
 
 <?php
-    $assets = URL::base().'assets/'; 
+    $assets = 'http://localhost'.URL::base().'assets/'; 
 ?>
     <head>
         

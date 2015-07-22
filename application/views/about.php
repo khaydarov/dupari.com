@@ -2,7 +2,7 @@
 <html lang="en">
 
   <?php
-    $assets = 'http://localhost:/'.URL::base().'assets/'; 
+    $assets = 'http://localhost'.URL::base().'assets/'; 
  ?>
     <head>
         

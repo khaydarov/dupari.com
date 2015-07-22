@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-Class Controller_Top extends FrontController {
+Class Controller_Top extends Front {
 
 	public $template = 'toptrips';
 

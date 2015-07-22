@@ -1,6 +1,6 @@
 <?php defined('SYSPATH') or die('No direct script access.');
 
-class Controller_Welcome extends FrontController {
+class Controller_Welcome extends Front {
 
 	public $template = 'welcome';
 
