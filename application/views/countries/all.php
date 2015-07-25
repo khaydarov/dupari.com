@@ -1,4 +1,7 @@
-<hr>
+<br>
+<br>
+
+
 <section class="row items" id="asia">
 	<article >
 		<label class="title_for_item" for="">АЗИЯ</label>

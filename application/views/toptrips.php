@@ -59,7 +59,9 @@
                 <?=$topmenu; ?>
             </nav>
 
-        <hr>
+        <br>
+        <br>
+        
         <p style="color: red; size: 15px; ">HERE WILL BE INFORMATION ABOUT TOP TRIPS OF THIS MONTH!!!!</p>
 
         <!-- Footer -->
