@@ -24,12 +24,6 @@
 						<li id="top_trips">
 							<a href="<?=URL::site('top'); ?>"><i class="fa fa-tasks"></i><br>Топ поездок</a>
 						</li>
-						<li id="about">
-							<a href="<?=URL::site('about/index'); ?>"><i class="fa fa-user"></i><br>О нас</a>
-						</li>
-						<li id="contacts">
-							<a href="<?=URL::site('about/contact'); ?>"><i class="fa fa-envelope"></i><br>Контакты</a>
-						</li>
 						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="1000">
 								<i class="fa fa-paperclip"></i><br>Интересное <span class="caret"></span>

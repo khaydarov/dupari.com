@@ -44,7 +44,6 @@
         <script src="<?=$assets; ?>libs/jqvmap/jqvmap/jquery.vmap.js"></script>
         <script src="<?=$assets; ?>libs/jqvmap/jqvmap/maps/jquery.vmap.world.js"></script>
         <script src="<?=$assets; ?>libs/jqvmap/jqvmap/data/jquery.vmap.sampledata.js"></script>
-       
 
 
         <!-- Favicon and touch icons -->
@@ -87,6 +86,8 @@
             <footer>
                 <?=$footer; ?>
             </footer>
+            
+    
     <script src="<?=$assets;?>js/scripts.js"></script>
     <script src="<?=$assets;?>js/menu.js"></script>
     <script>

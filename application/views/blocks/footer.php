@@ -28,8 +28,14 @@
                         </div>
                     </div>
                     <div class="col-sm-3 footer-box wow fadeInUp">
-                        <h4>Flickr Photos</h4>
-                        <div class="footer-box-text flickr-feed"></div>
+                       <ul>
+                            <li>
+                                <a href="<?=URL::site('about/index'); ?>">О нас</a>
+                            </li>
+                            <li>
+                                <a href="<?=URL::site('about/contact'); ?>">Контакты</a>
+                            </li>
+                       </ul>
                     </div>
                     <div class="col-sm-3 footer-box wow fadeInDown">
                         <h4>Contact Us</h4>
