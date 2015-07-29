@@ -17,7 +17,8 @@ class Controller_Country extends Front {
 		$this->template->footer = View::factory('blocks/footer');
 
 		// INCLUDE CONTENT
-		$this->template->content = View::factory('countries/all', $data);
+		$this->template->content = View::factory('countries/world', $data);
+		$this->template->content1 = View::factory('countries/all', $data);
 
 	}
 

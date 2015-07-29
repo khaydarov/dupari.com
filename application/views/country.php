@@ -20,6 +20,7 @@
         <link rel="stylesheet" href="<?=$assets;?>css/style.css">
         <link rel="stylesheet" href="<?=$assets;?>css/my.css">    
         <link rel="stylesheet" href="<?=$assets;?>css/media-queries.css">
+        <link rel="stylesheet" media="screen" href="<?=$assets; ?>libs/jqvmap/jqvmap/jqvmap.css">
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,6 +41,9 @@
         <script src="<?=$assets;?>js/masonry.pkgd.min.js"></script>
         <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <script src="<?=$assets;?>js/jquery.ui.map.min.js"></script>
+        <script src="<?=$assets; ?>libs/jqvmap/jqvmap/jquery.vmap.js"></script>
+        <script src="<?=$assets; ?>libs/jqvmap/jqvmap/maps/jquery.vmap.world.js"></script>
+        <script src="<?=$assets; ?>libs/jqvmap/jqvmap/data/jquery.vmap.sampledata.js"></script>
        
 
 
@@ -49,7 +53,7 @@
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=$assets;?>ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=$assets;?>ico/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="<?=$assets; ?>ico/apple-touch-icon-57-precomposed.png">
-
+    
     </head>
 
     <body>
@@ -65,6 +69,14 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <?=$content; ?>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <?=$content1; ?>
                     </div>
                 </div>
             </div>
