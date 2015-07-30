@@ -7,7 +7,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand logo" href="<?=URL::base();?>"><img src="<?=URL::base(); ?>/assets/img/log.png" alt=""></a>
+					<a class="navbar-brand logo" href="<?=URL::base();?>"><img src="<?=URL::base(); ?>/assets/img/_log.png" alt=""></a>
 				</div>
 				
 				<!-- Collect the nav links, forms, and other content for toggling -->
