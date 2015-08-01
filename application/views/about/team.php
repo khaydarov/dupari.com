@@ -4,7 +4,7 @@
                     <div class="col-sm-12 wow fadeIn">
                         <i class="fa fa-user"></i>
                         <h1 id="page_title">О НАС</h1>
-                        <p>Рады с вами познакомится!!!</p>
+                        <p>Рады с вами познакомиться!!!</p>
                     </div>
                 </div>
             </div>
@@ -16,16 +16,18 @@
 	                <div class="col-sm-12 about-us-text wow fadeInLeft">
 	                    <h3>Кто мы такие?</h3>
 	                    <p>
-	                    	Мы - команда молодых и амбициозных людей, которые хотят изменить мир к лучшему :) 
+	                    	Мы - команда молодых и амбициозных людей, которые хотят изменить мир к лучшему :) - И мне не стыдно нести хрень )
 	                    </p>
 	                    <h3>Наша миссия</h3>
 	                    <p>
-	                    	Dupari - это сайт, где легко и удобно можете подобрать себе отдых. Если вы еще не определились куда вы хотите поехать отдохнуть, dupari поможет вам с этим справиться. Вы можете посмотреть страны мира, их города, достопримечательности, фотографии людей с instagram, что поможет вам определится с решением.
+	                    	Dupari - это сайт, где легко и удобно можете подобрать себе отдых. Если вы еще не определились куда вы хотите поехать отдохнуть, dupari поможет вам определиться. Вы можете посмотреть страны мира, их города, достопримечательности, фотографии людей с instagram, что поможет вам определится с решением.
 	                    </p>
 	                    <h3>Что мы предлогаем?</h3>
 	                    <p>
 	                    	Мы поможем вам найти и организовать ваш отдых, найти себе подходящий тур, экскурсии и тд. С нами вы 
-	                    	легко можете забронировать отель, заказать трансфер от любой точки до вашего отеля.
+	                    	легко можете забронировать отель, заказать трансфер от любой точки до вашего отеля. Во-первых: Мы не занимаемся продажей билетов. 
+	                    	Мы находим самые лучшие, самые дешевые авиабилеты, а купить или нет, решать Вам!
+	                    	
 	                    </p>
 	                </div>
 	            </div>
@@ -45,7 +47,7 @@
 		                <div class="team-box wow fadeInUp">
 		                    <img src="<?=URL::base(); ?>/assets/img/unknown.jpg" alt="" data-at2x="assets/img/unknown.jpg">
 		                    <h3>Murod Khaydarov</h3>
-		                    <p><b>Founder.<b></p>
+		                    <p><b>Придумайте сами :)<b></p>
 		                    <div class="team-social">		                        
 		                        <a href="#"><i class="fa fa-facebook"></i></a>
 		                        <a href="#"><i class="fa fa-twitter"></i></a>
@@ -58,7 +60,7 @@
 		                <div class="team-box wow fadeInDown">
 		                    <img src="<?=URL::base(); ?>/assets/img/unknown.jpg" alt="" data-at2x="assets/img/unknown.jpg">
 		                    <h3>Sunatullo Kurbonov</h3>
-		                    <p><b>Co-founder</b></p>
+		                    <p><b>Nigga</b></p>
 		                    <div class="team-social">		                        
 		                        <a href="#"><i class="fa fa-facebook"></i></a>
 		                        <a href="#"><i class="fa fa-twitter"></i></a>
@@ -72,7 +74,7 @@
 		                <div class="team-box wow fadeInDown">
 		                    <img src="<?=URL::base(); ?>/assets/img/unknown.jpg" alt="" data-at2x="assets/img/unknown.jpg">
 		                    <h3>Khayrulloev Dodullo</h3>
-		                    <p><b>Developer</b></p>
+		                    <p><b>Сам IceFrog %)</b></p>
 		                    <div class="team-social">		                        
 		                        <a href="#"><i class="fa fa-facebook"></i></a>
 		                        <a href="#"><i class="fa fa-twitter"></i></a>

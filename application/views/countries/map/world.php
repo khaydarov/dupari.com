@@ -11,12 +11,9 @@ $(document).ready(function() {
 		    showTooltip: true,
 		    values: sample_data,
 		    scaleColors: ['#C8EEFF', '#006491'],
-		    normalizeFunction: 'polynomial',
-		    onRegionClick: function(event, code, region)
-		    {
-		    	alert('asd');
-		    }
+		    normalizeFunction: 'polynomial'
 		});
+
 });
 </script>
 <div class="row">

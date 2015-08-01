@@ -17,7 +17,24 @@ class Controller_Country extends Front {
 
 
 		// INCLUDE CONTENT
-		$this->template->content = View::factory('countries/add', $data);
+		$this->template->content = View::factory('countries/edit/add', $data);
+		$this->template->content1 = '';
+	}
+
+	Public function action_addCountry()
+	{
+		// Define static datas
+		$this->template->assets = $this->assets;
+		$this->template->title = "About countries";
+		$data['assets'] = $this->assets;
+
+		// Including static blocks
+		$this->template->topmenu = View::factory('blocks/topmenu');
+		$this->template->footer = View::factory('blocks/footer');
+
+
+		// INCLUDE CONTENT
+		$this->template->content = View::factory('countries/edit/addCountry', $data);
 		$this->template->content1 = '';
 	}
 
