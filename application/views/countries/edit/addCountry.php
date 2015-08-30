@@ -19,24 +19,34 @@ $(function() {
 <div class="col-lg-10 col-lg-offset-1">
 	<form role="form" class="form" action="" method="post">
 				<div class="form-group">
-					<label for=""></label>
-					<input type="text" class="form-control" placeholder="Введите название страны">
+					<select name="continent" id="" class="form-control">
+						<option value="">Выберите континент</option>
+						<option value="">Азия</option>
+						<option value="">Африка</option>
+						<option value="">Европа</option>
+						<option value="">Америка</option>
+						<option value="">Австралия</option>
+					</select>
 				</div>
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Столица">
+					<label for=""></label>
+					<input type="text" class="form-control" name="country" placeholder="Введите название страны">
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" name="capital" placeholder="Столица">
 				</div>	
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Численность">
+					<input type="text" class="form-control" name="count" placeholder="Численность">
 				</div>		
 				<div class="form-group">
-					<input type="text" class="form-control" placeholder="Государственный язык">
+					<input type="text" class="form-control" name="language" placeholder="Государственный язык">
 				</div>
 				<div>
 					<textarea class="bbcode" name="bbcode_field" style="width: 100%; height: 500px;"></textarea>
 				</div>
 				<br>
 				<div class="form-group">
-					<button class="btn btn-sm btn-success form-control">Добавить</button>
+					<button name="submit" class="btn btn-sm btn-success form-control">Добавить</button>
 				</div>
 	</form>
 

@@ -36,6 +36,17 @@ class Controller_Country extends Front {
 		// INCLUDE CONTENT
 		$this->template->content = View::factory('countries/edit/addCountry', $data);
 		$this->template->content1 = '';
+
+		if (isset($_POST['submit']))
+		{
+			$continent = Arr::get($_POST, 'continent', '');
+			$country = Arr::get($_POST, 'country', '');
+			$capital = Arr::get($_POST, 'capital', '');
+			$count = Arr::get($_POST, 'count', '');
+			$language = Arr::get($_POST, 'language', '');
+
+			$addCountry = new Model_Addcountry();
+		}
 	}
 
 	public function action_index() {

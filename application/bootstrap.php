@@ -143,8 +143,17 @@ Kohana::modules(array(
 Cookie::$salt = 'dupari';
 
 
-Route::set('default', '(<controller>(/<action>(/<id>)))')
+Route::set('auth', 'cgi-bin(/<controller>(/<action>(/<par1>(<par2>))))')
+	->defaults(array(
+		'directory' => 'Auth',
+		'controller' => 'auth',
+		'action'     => 'index',
+	));
+
+Route::set('default', '(<controller>(/<action>(/<par1>(<par2>))))')
 	->defaults(array(
 		'controller' => 'welcome',
 		'action'     => 'index',
 	));
+
+

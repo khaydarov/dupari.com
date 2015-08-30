@@ -18,6 +18,11 @@
 								<i class="fa fa-home"></i><br>Главная
 							</a>
 						</li>
+						<li>
+							<a href="">
+								<i class="glyphicon glyphicon-refresh"> Поиск билетов</i>
+							</a>
+						</li>
 						<li id="country">
 							<a href="<?=URL::site('country'); ?>" ><i class="fa fa-camera"></i><br>Страны мира</a>
 						</li>

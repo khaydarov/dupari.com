@@ -8,10 +8,14 @@ class Front extends Controller_Template {
 
 	public function before() {
 
-		$this->assets = 'http://localhost'.URL::base().'assets/';
+		$this->setAsset('http://localhost'.URL::base().'assets/');
 		
 		if ($this->tt == 0)
 			return 0;
 		return parent::before();
+	}
+
+	private function setAsset($url) {
+		$this->assets = $url;
 	}
 }
